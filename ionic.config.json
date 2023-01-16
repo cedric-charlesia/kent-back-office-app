@@ -1,0 +1,7 @@
+{
+  "name": "kent-back-ofice-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
