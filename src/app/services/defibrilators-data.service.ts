@@ -7,7 +7,13 @@ import { HttpClient } from '@angular/common/http';
 export class DefibrilatorsDataService {
   constructor(private http: HttpClient) {}
 
+  // Get data from local JSON file
+  // getDefibrilators() {
+  //   return this.http.get('../assets/data/defibrilators_data.json');
+  // }
+
+  // Get data from database
   getDefibrilators() {
-    return this.http.get('../assets/data/defibrilators_data.json');
+    return this.http.get('http://localhost:3000/defibrilators');
   }
 }
