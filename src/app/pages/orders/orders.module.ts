@@ -7,14 +7,18 @@ import { IonicModule } from '@ionic/angular';
 import { OrdersPageRoutingModule } from './orders-routing.module';
 
 import { OrdersPage } from './orders.page';
+import { PageTitleModule } from 'src/app/modules/page-title/page-title.module';
+import { PageDescriptionModule } from 'src/app/modules/page-description/page-description.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    OrdersPageRoutingModule
+    OrdersPageRoutingModule,
+    PageTitleModule,
+    PageDescriptionModule,
   ],
-  declarations: [OrdersPage]
+  declarations: [OrdersPage],
 })
 export class OrdersPageModule {}

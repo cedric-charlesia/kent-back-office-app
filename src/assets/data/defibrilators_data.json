@@ -1,0 +1,72 @@
+[
+    {
+        "serial": "CLA012345678",
+        "location_name": "Mairie d'Elattes",
+        "location_addr": "12 Rue Jacques Prévert, 42980 Elattes",
+        "state": 0,
+        "electrodes_expiry": "2025-10-05"
+    },
+    {
+        "serial": "CLA123456789",
+        "location_name": "Gymnase Pierre Peyroche",
+        "location_addr": "1Bis Place des Combattants, 42980 Elattes",
+        "state": 0,
+        "electrodes_expiry": "2025-10-05"
+    },
+    {
+        "serial": "CLA234567890",
+        "location_name": "École Municipale",
+        "location_addr": "26 Rue Jacques Prévert, 42980 Elattes",
+        "state": 2,
+        "electrodes_expiry": "2025-10-05"
+    },
+    {
+        "serial": "CLA345678901",
+        "location_name": "Épicerie Samoreau",
+        "location_addr": "17 Boulevard du Commandant Kelchmin, 42980 Elattes",
+        "state": 0,
+        "electrodes_expiry": "2025-10-05"
+    },
+    {
+        "serial": "CLA456789012",
+        "location_name": "Moussa&Telli Réparation Informatique",
+        "location_addr": "90 Impasse des Cèdres, 42980 Elattes",
+        "state": 1,
+        "electrodes_expiry": "2025-10-05"
+    },
+    {
+        "serial": "CLA567890123",
+        "location_name": "Boucherie Boussal",
+        "location_addr": "3 Rue Félidée, 42980 Elattes",
+        "state": 2,
+        "electrodes_expiry": "2025-10-05"
+    },
+    {
+        "serial": "CLA678901234",
+        "location_name": "Scierie Dubois&Fils",
+        "location_addr": "649 Route de Lyon, 42980 Elattes",
+        "state": 0,
+        "electrodes_expiry": "2025-10-05"
+    },
+    {
+        "serial": "CLA789012345",
+        "location_name": "It'tif Coiffure Mixte",
+        "location_addr": "19 Boulevard Lévy, 42980 Elattes",
+        "state": 0,
+        "electrodes_expiry": "2025-10-05"
+    },
+    {
+        "serial": "CLA890123456",
+        "location_name": "Ferme Sarbise Laine & Tricotée",
+        "location_addr": "40 Route de Lyon 42980 Elattes",
+        "state": 0,
+        "electrodes_expiry": "2025-10-05"
+    },
+    {
+        "serial": "CLA901234567",
+        "location_name": "Garage Quérin-Gogheräuss",
+        "location_addr": "12 Rue Jacques Prévert, 42980 Elattes",
+        "state": 0,
+        "electrodes_expiry": "2025-10-05"
+    }
+]

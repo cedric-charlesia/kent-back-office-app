@@ -9,6 +9,7 @@ import { DefibrilatorsPageRoutingModule } from './defibrilators-routing.module';
 import { DefibrilatorsPage } from './defibrilators.page';
 import { PageTitleModule } from 'src/app/modules/page-title/page-title.module';
 import { PageDescriptionModule } from 'src/app/modules/page-description/page-description.module';
+import { DefibrilatorInfoCardModule } from 'src/app/modules/defibrilator-info-card/defibrilator-info-card.module';
 
 @NgModule({
   imports: [
@@ -18,6 +19,7 @@ import { PageDescriptionModule } from 'src/app/modules/page-description/page-des
     DefibrilatorsPageRoutingModule,
     PageTitleModule,
     PageDescriptionModule,
+    DefibrilatorInfoCardModule,
   ],
   declarations: [DefibrilatorsPage],
 })
