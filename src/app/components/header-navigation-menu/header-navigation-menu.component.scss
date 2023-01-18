@@ -1,0 +1,45 @@
+.header-container {
+  --background: var(--lifeaz-color);
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.header-nav {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.header-nav__links {
+  display: flex;
+  flex-direction: column;
+  border-left: 2px solid;
+  padding-left: 1.5em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.header-nav__links p {
+  margin-top: 0.25em;
+}
+
+.header-nav__links a,
+.header-nav__links a:hover,
+.header-nav__links a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-nav__links a:active {
+  font-weight: bold;
+}
+
+.selected {
+  font-weight: bold;
+}

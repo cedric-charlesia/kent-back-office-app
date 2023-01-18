@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar class="header-container">
+    <div class="header-menu ion-margin ion-padding">
+      <div><img src="../../../assets/LIFEAZ.png" alt="Lifeaz logo" /></div>
+      <div (click)="toggleMenuBurger()">
+        <img src="../../../assets/icon/icon_menu.png" alt="Menu" />
+      </div>
+    </div>
+  </ion-toolbar>
+
+  <ion-toolbar
+    class="header-container"
+    toggle-nav
+    [ngClass]="toggleNav ? '' : 'ion-hide'"
+  >
+    <div class="header-nav ion-margin ion-padding">
+      <div class="header-nav__links ion-text-uppercase">
+        <p>
+          <a [routerLink]="['/defibrilators']" routerLinkActive="selected"
+            >Défibrilateurs</a
+          >
+        </p>
+        <p>
+          <a [routerLink]="['/orders']" routerLinkActive="selected"
+            >Commandes</a
+          >
+        </p>
+      </div>
+    </div>
+  </ion-toolbar>
+</ion-header>

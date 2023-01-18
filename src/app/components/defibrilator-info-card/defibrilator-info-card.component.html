@@ -1,0 +1,47 @@
+<ion-card
+  *ngFor="let card of defibrilatorCard"
+  class="defibrilator-card ion-margin"
+>
+  <ion-item lines="none">
+    <ion-thumbnail
+      slot="end"
+      class="defibrilator-state-icon"
+      *ngIf="card.state === 0"
+    >
+      <img
+        alt="defibrilator status"
+        src="../../../assets/icon/icon_check.png"
+      />
+    </ion-thumbnail>
+
+    <ion-thumbnail
+      slot="end"
+      class="defibrilator-state-icon"
+      *ngIf="card.state === 1"
+    >
+      <img
+        alt="defibrilator status"
+        src="../../../assets/icon/icon_inter.png"
+      />
+    </ion-thumbnail>
+
+    <ion-thumbnail
+      slot="end"
+      class="defibrilator-state-icon"
+      *ngIf="card.state === 2"
+    >
+      <img
+        alt="defibrilator status"
+        src="../../../assets/icon/icon_danger.png"
+      />
+    </ion-thumbnail>
+    <ion-label class="defibrilator-serial-number">
+      {{ card.serial }}
+    </ion-label>
+  </ion-item>
+
+  <ion-card-content class="defibrilator-address">
+    <span class="text-bold">{{ card.location_name }}</span
+    >, {{ card.location_addr }}
+  </ion-card-content>
+</ion-card>

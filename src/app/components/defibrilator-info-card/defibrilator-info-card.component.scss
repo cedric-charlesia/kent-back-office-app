@@ -1,0 +1,27 @@
+.defibrilator-card {
+  padding: 0.25em;
+  border-radius: 1em;
+}
+.defibrilator-address {
+  padding-top: 0;
+  color: var(--ion-color-dark);
+  width: 25ch;
+}
+
+.defibrilator-serial-number {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.defibrilator-state-icon {
+  width: 1.6em;
+  height: 1.6em;
+}
+
+.defibrilator-state-icon img {
+  object-fit: none;
+}
+
+.text-bold {
+  font-weight: bold;
+}
