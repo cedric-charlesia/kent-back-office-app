@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-toolbar class="ion-padding header-container">
+    <ion-buttons slot="start">
+      <a [routerLink]="['/']"
+        ><img src="../../../assets/LIFEAZ.png" alt="Lifeaz logo"
+      /></a>
+    </ion-buttons>
+    <ion-buttons slot="end" (click)="toggleMenuBurger()">
+      <img src="../../../assets/icon/icon_menu.png" alt="Menu" />
+    </ion-buttons>
+  </ion-toolbar>
+
+  <ion-toolbar
+    class="header-container"
+    toggle-nav
+    [ngClass]="toggleNav ? '' : 'ion-hide'"
+  >
+    <app-navigation-menu></app-navigation-menu>
+  </ion-toolbar>
+</ion-header>

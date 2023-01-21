@@ -1,0 +1,10 @@
+.header-container {
+  --background: var(--lifeaz-color);
+  padding-bottom: 0;
+}
+
+@media screen and (min-width: 992px) {
+  ion-header {
+    display: none;
+  }
+}

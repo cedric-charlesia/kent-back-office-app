@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { HeaderNavigationMenuComponent } from './header-navigation-menu.component';
+import { NavigationMenuComponent } from './navigation-menu.component';
 
-describe('HeaderNavigationMenuComponent', () => {
-  let component: HeaderNavigationMenuComponent;
-  let fixture: ComponentFixture<HeaderNavigationMenuComponent>;
+describe('NavigationMenuComponent', () => {
+  let component: NavigationMenuComponent;
+  let fixture: ComponentFixture<NavigationMenuComponent>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ HeaderNavigationMenuComponent ],
+      declarations: [ NavigationMenuComponent ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(HeaderNavigationMenuComponent);
+    fixture = TestBed.createComponent(NavigationMenuComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

@@ -1,3 +1,18 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-split-pane contentId="main-content">
+    <ion-menu contentId="main-content" type="overlay">
+      <ion-content>
+        <div class="header-menu ion-margin ion-padding">
+          <div>
+            <a [routerLink]="['/']"
+              ><img src="../../../assets/LIFEAZ.png" alt="Lifeaz logo"
+            /></a>
+          </div>
+        </div>
+
+        <app-navigation-menu></app-navigation-menu>
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet id="main-content"></ion-router-outlet>
+  </ion-split-pane>
 </ion-app>

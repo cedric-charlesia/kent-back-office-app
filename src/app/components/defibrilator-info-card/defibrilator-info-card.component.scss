@@ -1,6 +1,7 @@
 .defibrilator-card {
   padding: 0.25em;
   border-radius: 1em;
+  box-shadow: none;
 }
 .defibrilator-address {
   padding-top: 0;
@@ -24,4 +25,34 @@
 
 .text-bold {
   font-weight: bold;
+}
+
+@media screen and (min-width: 992px) {
+  .mobile-view {
+    display: none;
+  }
+
+  ion-col {
+    display: flex;
+    align-items: flex-start;
+    color: var(--ion-color-dark);
+  }
+
+  .card-localisation-container {
+    display: flex;
+    gap: 0.5em;
+  }
+
+  .card-localisation-address {
+    width: 30ch;
+  }
+
+  .card-localisation-address p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .defibrilator-state-icon img {
+    object-fit: contain;
+  }
 }
