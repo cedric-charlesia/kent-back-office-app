@@ -32,6 +32,11 @@
     display: none;
   }
 
+  .desktop-view {
+    width: 85%;
+    margin-left: 3em;
+  }
+
   ion-col {
     display: flex;
     align-items: flex-start;
@@ -54,5 +59,9 @@
 
   .defibrilator-state-icon img {
     object-fit: contain;
+  }
+
+  .defibrilator-expiry-date {
+    color: var(--ion-color-medium);
   }
 }

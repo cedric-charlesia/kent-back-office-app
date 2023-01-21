@@ -1,3 +1,24 @@
 ion-content {
   --background: var(--lifeaz-color);
 }
+
+ion-menu {
+  border: none;
+}
+
+ion-icon {
+  color: var(--ion-color-medium);
+}
+
+.menu-title::part(native) {
+  background: #eaebf2;
+  font-weight: bold;
+  margin: 1em 0 1em 1em;
+  padding-right: 1em;
+  border-top-left-radius: 3em;
+  border-bottom-left-radius: 3em;
+}
+
+.menu-title img {
+  object-fit: none;
+}

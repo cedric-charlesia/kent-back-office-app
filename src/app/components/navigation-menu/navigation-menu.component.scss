@@ -35,21 +35,10 @@
 
 @media screen and (min-width: 992px) {
   .header-nav {
-    margin-right: 0;
-    padding-right: 0;
+    margin: 0 1em 1em 2.5em;
   }
 
-  .header-nav__links a:hover {
-    background-color: #eaebf2;
-    color: var(--ion-color-dark);
-    font-weight: bold;
-    padding: 0.8em;
-    border-top-left-radius: 1em;
-    border-bottom-left-radius: 1em;
-  }
-
-  .header-nav__links a:hover::before {
-    content: url("../../../assets/icon/icon_spark.png");
-    padding-right: 1em;
+  .header-nav__links {
+    padding-top: 1em;
   }
 }
