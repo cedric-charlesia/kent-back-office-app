@@ -1,6 +1,7 @@
+<!--Mobile display-->
 <ion-card
   *ngFor="let card of defibrilatorCard"
-  class="defibrilator-card ion-margin"
+  class="defibrilator-card mobile-view ion-margin"
 >
   <ion-item lines="none">
     <ion-thumbnail
@@ -8,10 +9,7 @@
       class="defibrilator-state-icon"
       *ngIf="card.state === 0"
     >
-      <img
-        alt="defibrilator status"
-        src="../../../assets/icon/icon_check.png"
-      />
+      <img alt="defibrilator state" src="../../../assets/icon/icon_check.png" />
     </ion-thumbnail>
 
     <ion-thumbnail
@@ -19,10 +17,7 @@
       class="defibrilator-state-icon"
       *ngIf="card.state === 1"
     >
-      <img
-        alt="defibrilator status"
-        src="../../../assets/icon/icon_inter.png"
-      />
+      <img alt="defibrilator state" src="../../../assets/icon/icon_inter.png" />
     </ion-thumbnail>
 
     <ion-thumbnail
@@ -31,7 +26,7 @@
       *ngIf="card.state === 2"
     >
       <img
-        alt="defibrilator status"
+        alt="defibrilator state"
         src="../../../assets/icon/icon_danger.png"
       />
     </ion-thumbnail>
@@ -44,4 +39,75 @@
     <span class="text-bold">{{ card.location_name }}</span
     >, {{ card.location_addr }}
   </ion-card-content>
+</ion-card>
+
+<!--Desktop display-->
+<ion-card class="defibrilator-card desktop-view ion-margin">
+  <ion-grid>
+    <ion-row class="ion-text-uppercase text-bold">
+      <ion-col>numéro de série</ion-col>
+      <ion-col size="5">localisation</ion-col>
+      <ion-col size="2">état</ion-col>
+      <ion-col>date de péremption des éléctrodes</ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid *ngFor="let card of defibrilatorCard">
+    <ion-row>
+      <ion-col>{{ card.serial }}</ion-col>
+      <ion-col size="5" class="card-localisation-container">
+        <div>
+          <ion-thumbnail slot="start" class="defibrilator-state-icon">
+            <img
+              alt="defibrilator localisation"
+              src="../../../assets/icon/icon_loc.png"
+            />
+          </ion-thumbnail>
+        </div>
+        <div class="card-localisation-address">
+          <p class="text-bold">{{ card.location_name }}</p>
+          <p>{{ card.location_addr }}</p>
+        </div>
+      </ion-col>
+      <ion-col size="2">
+        <div>
+          <ion-thumbnail
+            slot="start"
+            class="defibrilator-state-icon"
+            *ngIf="card.state === 0"
+          >
+            <img
+              alt="defibrilator state"
+              src="../../../assets/icon/icon_check.png"
+            />
+          </ion-thumbnail>
+
+          <ion-thumbnail
+            slot="start"
+            class="defibrilator-state-icon"
+            *ngIf="card.state === 1"
+          >
+            <img
+              alt="defibrilator state"
+              src="../../../assets/icon/icon_inter.png"
+            />
+          </ion-thumbnail>
+
+          <ion-thumbnail
+            slot="start"
+            class="defibrilator-state-icon"
+            *ngIf="card.state === 2"
+          >
+            <img
+              alt="defibrilator state"
+              src="../../../assets/icon/icon_danger.png"
+            />
+          </ion-thumbnail>
+        </div>
+      </ion-col>
+      <ion-col class="defibrilator-expiry-date">{{
+        card.electrodes_expiry | date : "d:MM:YYYY"
+      }}</ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-card>

@@ -10,7 +10,7 @@ import { DefibrilatorsPage } from './defibrilators.page';
 import { PageTitleModule } from 'src/app/modules/page-title/page-title.module';
 import { PageDescriptionModule } from 'src/app/modules/page-description/page-description.module';
 import { DefibrilatorInfoCardModule } from 'src/app/modules/defibrilator-info-card/defibrilator-info-card.module';
-import { HeaderNavigationMenuModule } from 'src/app/modules/header-navigation-menu/header-navigation-menu.module';
+import { HeaderModule } from 'src/app/modules/header/header.module';
 
 @NgModule({
   imports: [
@@ -18,10 +18,10 @@ import { HeaderNavigationMenuModule } from 'src/app/modules/header-navigation-me
     FormsModule,
     IonicModule,
     DefibrilatorsPageRoutingModule,
+    HeaderModule,
     PageTitleModule,
     PageDescriptionModule,
     DefibrilatorInfoCardModule,
-    HeaderNavigationMenuModule,
   ],
   declarations: [DefibrilatorsPage],
 })

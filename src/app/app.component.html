@@ -1,3 +1,26 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-split-pane contentId="main-content">
+    <ion-menu contentId="main-content" type="overlay">
+      <ion-content>
+        <div class="header-menu ion-margin ion-padding">
+          <div>
+            <a [routerLink]="['/']"
+              ><img src="../../../assets/LIFEAZ.png" alt="Lifeaz logo"
+            /></a>
+          </div>
+        </div>
+
+        <ion-item class="menu-title" lines="none">
+          <ion-thumbnail slot="start">
+            <img alt="Spark icon" src="../assets/icon/icon_spark.png" />
+          </ion-thumbnail>
+          <ion-label class="ion-text-uppercase"> Matériel </ion-label>
+          <ion-icon name="chevron-down-outline" slot="end"></ion-icon>
+        </ion-item>
+
+        <app-navigation-menu></app-navigation-menu>
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet id="main-content"></ion-router-outlet>
+  </ion-split-pane>
 </ion-app>
