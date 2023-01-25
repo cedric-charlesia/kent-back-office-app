@@ -1,72 +1,72 @@
 [
-    {
-        "serial": "CLA012345678",
-        "location_name": "Mairie d'Elattes",
-        "location_addr": "12 Rue Jacques Prévert, 42980 Elattes",
-        "state": 0,
-        "electrodes_expiry": "2025-10-05"
-    },
-    {
-        "serial": "CLA123456789",
-        "location_name": "Gymnase Pierre Peyroche",
-        "location_addr": "1Bis Place des Combattants, 42980 Elattes",
-        "state": 0,
-        "electrodes_expiry": "2025-10-05"
-    },
-    {
-        "serial": "CLA234567890",
-        "location_name": "École Municipale",
-        "location_addr": "26 Rue Jacques Prévert, 42980 Elattes",
-        "state": 2,
-        "electrodes_expiry": "2025-10-05"
-    },
-    {
-        "serial": "CLA345678901",
-        "location_name": "Épicerie Samoreau",
-        "location_addr": "17 Boulevard du Commandant Kelchmin, 42980 Elattes",
-        "state": 0,
-        "electrodes_expiry": "2025-10-05"
-    },
-    {
-        "serial": "CLA456789012",
-        "location_name": "Moussa&Telli Réparation Informatique",
-        "location_addr": "90 Impasse des Cèdres, 42980 Elattes",
-        "state": 1,
-        "electrodes_expiry": "2025-10-05"
-    },
-    {
-        "serial": "CLA567890123",
-        "location_name": "Boucherie Boussal",
-        "location_addr": "3 Rue Félidée, 42980 Elattes",
-        "state": 2,
-        "electrodes_expiry": "2025-10-05"
-    },
-    {
-        "serial": "CLA678901234",
-        "location_name": "Scierie Dubois&Fils",
-        "location_addr": "649 Route de Lyon, 42980 Elattes",
-        "state": 0,
-        "electrodes_expiry": "2025-10-05"
-    },
-    {
-        "serial": "CLA789012345",
-        "location_name": "It'tif Coiffure Mixte",
-        "location_addr": "19 Boulevard Lévy, 42980 Elattes",
-        "state": 0,
-        "electrodes_expiry": "2025-10-05"
-    },
-    {
-        "serial": "CLA890123456",
-        "location_name": "Ferme Sarbise Laine & Tricotée",
-        "location_addr": "40 Route de Lyon 42980 Elattes",
-        "state": 0,
-        "electrodes_expiry": "2025-10-05"
-    },
-    {
-        "serial": "CLA901234567",
-        "location_name": "Garage Quérin-Gogheräuss",
-        "location_addr": "12 Rue Jacques Prévert, 42980 Elattes",
-        "state": 0,
-        "electrodes_expiry": "2025-10-05"
-    }
+  {
+    "serial": "FOO123456789",
+    "location_name": "Mairie de Fort-de-France",
+    "location_addr": "22 Rue Roger Prévert, 000123 Opéyi",
+    "state": 0,
+    "electrodes_expiry": "2025-10-05"
+  },
+  {
+    "serial": "FOO123456790",
+    "location_name": "Gymnase Pierre Laroche",
+    "location_addr": "1Bis Place des Combattants, 000123 Ballocentre",
+    "state": 0,
+    "electrodes_expiry": "2030-10-13"
+  },
+  {
+    "serial": "FOO123456791",
+    "location_name": "École Maternelle",
+    "location_addr": "62 Rue José Prévert, 000123 Japprend",
+    "state": 2,
+    "electrodes_expiry": "2024-10-27"
+  },
+  {
+    "serial": "FOO123456792",
+    "location_name": "Épicerie Au bon blé",
+    "location_addr": "17 Boulevard du Commandant Céou, 000123 Villedupain",
+    "state": 0,
+    "electrodes_expiry": "2026-10-9"
+  },
+  {
+    "serial": "FOO123456793",
+    "location_name": "Répartout Réparation Informatique",
+    "location_addr": "90 Impasse des Sapin, 000123 Millecable",
+    "state": 1,
+    "electrodes_expiry": "2025-10-16"
+  },
+  {
+    "serial": "FOO123456794",
+    "location_name": "Boucherie Veaugras",
+    "location_addr": "3 Rue Félicité, 000123 Cerf-bois-foret",
+    "state": 2,
+    "electrodes_expiry": "2029-12-31"
+  },
+  {
+    "serial": "FOO123456795",
+    "location_name": "Scierie Kipique",
+    "location_addr": "49 Rue de Lyon, 000123 Chênes-sur-mer",
+    "state": 0,
+    "electrodes_expiry": "2027-08-05"
+  },
+  {
+    "serial": "FOO123456796",
+    "location_name": "Hairstyle Coiffure Mixte",
+    "location_addr": "39 Boulevard Strauss, 000123 Coiffcity",
+    "state": 0,
+    "electrodes_expiry": "2025-06-22"
+  },
+  {
+    "serial": "FOO123456797",
+    "location_name": "Ferme Verdure & Tricotée",
+    "location_addr": "40 Chemin de Lille 000123 CampagneVille",
+    "state": 0,
+    "electrodes_expiry": "2028-10-05"
+  },
+  {
+    "serial": "FOO123456798",
+    "location_name": "Garage Quérin-Gogheräuss",
+    "location_addr": "22 Rue Jacques Pré, 000123 Carland",
+    "state": 0,
+    "electrodes_expiry": "2030-03-14"
+  }
 ]
